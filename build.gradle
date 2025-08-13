@@ -37,6 +37,10 @@ dependencies {
     implementation 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     
+    // 요청 데이터 검증(Bean Validation, @NotBlank, @Email 등) 기능 제공
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    
+    
     // 테스트용
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
